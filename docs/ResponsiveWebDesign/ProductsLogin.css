@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url("http://a1.qpic.cn/psc?/V10xdKCq32QJ6C/xZikVHqhLrt9jsfqm9tF*YSggVQ*eYmg9iBBpvlHz8eSnlfpzIlL5gJl3oAGXM2TUolLk4P2Vf6bAXbqnQovog!!/b&ek=1&kp=1&pt=0&bo=gACAAAAAAAADFzI!&tl=1&vuin=2514618741&tm=1585814400&sce=60-2-2&rf=viewer_4") top center fixed;
+}
+#header {
+    position: fixed;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    background: rgba(0, 204, 255, 0.3);
+}
+#header-img {
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    float: left;
+}
+#nav-bar {
+    width: 50%;
+    float: right;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-link {
+    display: block;
+    padding: 0 30px;
+    line-height: 100px;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+@media (max-width: 400px) {
+    .nav-link {
+        padding: 0;
+    }
+}
+.nav-link:hover {
+    background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+.vid {
+    display: flex;
+    justify-content: center;
+    margin: 120px auto 0;
+}
+#video {
+    allowfullscreen: "true";
+}
+.formm {
+    width: 400px;
+    margin: 30px auto;
+    text-align: center;
+    color: #000;
+}
+#email {
+    width: 300px;
+    height: 30px;
+    padding-left: 10px;
+    color: #ccc;
+    border-radius: 5px;
+}
+#submit {
+    background-color: #90ee90;
+    border: none;
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+}
+footer {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+footer div {
+    flex: 1;
+    width: 200px;
+    height: 200px;
+    background-color: #FFB6C1;
+    margin: 0 10px 20px;
+    text-align: center;
+    padding: 20px;
+}
+footer div strong {
+    font-size: 30px;
+}

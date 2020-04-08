@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+            <title>
+                SurveyForm
+            </title>
+            <link href="SurveyForm.css" rel="stylesheet">
+            </link>
+        </meta>
+    </head>
+    <body>
+        <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+        <main>
+            <header>
+                <h1 id="title">
+                    Ultraman's Hobby Survey Form
+                </h1>
+                <p id="description">
+                    Thank you for taking the time to help us improve the platform
+                </p>
+            </header>
+            <div class="survey">
+                <form action="post" id="survey-form">
+                    <div>
+                        <label for="name" id="name-label">
+                            Name
+                        </label>
+                        <br/>
+                        <input id="name" name="name" placeholder="Enter your name" required="" type="text">
+                        </input>
+                    </div>
+                    <div>
+                        <label for="email" id="email-label">
+                            Email
+                        </label>
+                        <br/>
+                        <input id="email" name="email" placeholder="Enter your email" required="" type="email">
+                        </input>
+                    </div>
+                    <div>
+                        <label for="number" id="number-label">
+                            Age
+                        </label>
+                        <br/>
+                        <input id="number" max="30" min="1" name="number" placeholder="Age" type="number">
+                        </input>
+                    </div>
+                    Which Ultraman do you like best?
+                    <select id="dropdown" name="">
+                        <option disabled="" selected="" value="1">
+                            Choose your favorite Ultraman
+                        </option>
+                        <option value="Degas">
+                            Degas
+                        </option>
+                        <option value="Agul">
+                            Agul
+                        </option>
+                        <option value="Gaia">
+                            Gaia
+                        </option>
+                        <option value="Dana">
+                            Dana
+                        </option>
+                    </select>
+                    <div id="one-select">
+                        What is your favorite feature of Ultraman?
+                        <br>
+                            <input name="cha" type="radio" value="tall">
+                                tall
+                                <br>
+                                    <input name="cha" type="radio" value="kindness">
+                                        kindness
+                                        <br>
+                                            <input name="cha" type="radio" value="friendly">
+                                                friendly
+                                                <br>
+                                                </br>
+                                            </input>
+                                        </br>
+                                    </input>
+                                </br>
+                            </input>
+                        </br>
+                    </div>
+                    <div class="more-select">
+                        What should you learn about Ultraman?
+                        <p>
+                            <input name="haha" type="checkbox" value="Hot blood">
+                                Hot blood
+                            </input>
+                        </p>
+                        <p>
+                            <input name="haha" q="" type="checkbox" value="Friendship">
+                                Friendship
+                            </input>
+                        </p>
+                        <p>
+                            <input name="haha" type="checkbox" value="Strong fighting skills">
+                                Strong fighting skills
+                            </input>
+                        </p>
+                        <p>
+                            <input name="haha" type="checkbox" value="Dare to fight">
+                                Dare to fight
+                            </input>
+                        </p>
+                    </div>
+                    <div class="sug">
+                        Any comments or suggestions?
+                        <textarea id="advice" name="advice">
+                            Please write your comments and suggestions.
+                        </textarea>
+                    </div>
+                    <div id="tijiao">
+                        <input id="submit" type="submit" value="提交">
+                        </input>
+                    </div>
+                </form>
+            </div>
+        </main>
+    </body>
+</html>

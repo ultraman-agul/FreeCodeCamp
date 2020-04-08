@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+            <title>
+                JavaScript Document
+            </title>
+        </meta>
+        <link rel="stylesheet" href="Document.css">
+    </head>
+    <body>
+       <!--  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+        </script> -->
+        <nav id="navbar">
+            <header>
+                <h1>
+                    JavaScript 技术文档
+                </h1>
+            </header>
+            <ul class="uu">
+                <li>
+                    <a class="nav-link" href="#Introduction">
+                        Introduction
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#What_you_should_already_know">
+                        What you should already know
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#Java_and_Javascript">
+                        Java and Javascript
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#Hello_world">
+                        Hello world
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#Variables">
+                        Variables
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#Declaring_variables">
+                        Declaring variables
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#Variable_scope">
+                        Variable scope
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#Global_variables">
+                        Global variables
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#Constants">
+                        Constants
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#Data_types">
+                        Data types
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#if...else_statement">
+                        if...else statement
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#while_statement">
+                        while statement
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#Function_declarations">
+                        Function declarations
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#Reference">
+                        Reference
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <main id="main-doc">
+            <section class="main-section" id="Introduction">
+                <header>
+                    <h1>
+                        Introduction
+                    </h1>
+                </header>
+                <p>
+                    JavaScript是一种跨平台的，面向对象的脚本语言。 它是一种小型轻量级语言。 在主机环境（例如，Web浏览器）中，JavaScript可以连接到其环境的对象以提供对它们的编程控制。
+                </p>
+                <br>
+                    <p>
+                        JavaScript包含对象的标准库，例如Array，Date和Math，以及一组核心的语言元素，例如运算符，控件结构和语句。 可以通过添加其他对象来扩展Core JavaScript，以实现多种用途。 例如：
+                    </p>
+                    <ul>
+                        <li>
+                            客户端JavaScript通过提供控制浏览器及其文档对象模型（DOM）的对象来扩展核心语言。 例如，客户端扩展允许应用程序将元素放置在HTML表单上并响应用户事件，例如鼠标单击，表单输入和页面导航。
+                        </li>
+                        <li>
+                            服务器端JavaScript通过提供与在服务器上运行JavaScript有关的对象来扩展核心语言。 例如，服务器端扩展允许应用程序与数据库通信，提供从应用程序的一次调用到另一次调用的信息连续性，或在服务器上执行文件操作。
+                        </li>
+                    </ul>
+                </br>
+            </section>
+            <section class="main-section" id="What_you_should_already_know">
+                <header>
+                    <h1>
+                        What you should already know
+                    </h1>
+                </header>
+                <p>
+                    本指南假定您具有以下基本背景：
+                </p>
+                <ul>
+                    <li>
+                        对Internet和万维网（WWW）的一般了解。
+                    </li>
+                    <li>
+                        具有超文本标记语言（HTML）的良好使用知识。
+                    </li>
+                    <li>
+                        有一定的编程经验。 如果您不熟悉编程，请尝试链接到JavaScript的主页上的教程之一。
+                    </li>
+                </ul>
+            </section>
+            <section class="main-section" id="Java_and_Javascript">
+                <header>
+                    <h1>
+                        Java and Javascript
+                    </h1>
+                </header>
+                <p>
+                    JavaScript和Java在某些方面相似，但在其他方面则根本不同。 JavaScript语言类似于Java，但是没有Java的静态类型和强类型检查。 JavaScript遵循大多数Java表达式语法，命名约定和基本的控制流结构，这就是将其从LiveScript重命名为JavaScript的原因。
+                </p>
+                <br>
+                    <p>
+                        与Java的由声明构建的类的编译时系统相反，JavaScript支持基于少量表示数字，布尔值和字符串值的数据类型的运行时系统。 JavaScript具有基于原型的对象模型，而不是更常见的基于类的对象模型。 基于原型的模型提供了动态继承。 也就是说，继承的内容可能因单个对象而异。 JavaScript还支持无特殊声明要求的函数。 函数可以是对象的属性，可以作为松散类型的方法执行。
+                    </p>
+                    <br>
+                        <p>
+                            与Java相比，JavaScript是一种非常自由的语言。 您不必声明所有变量，类和方法。 您不必担心方法是公共的，私有的还是受保护的，也不必实现接口。 变量，参数和函数返回类型未明确键入。
+                        </p>
+                    </br>
+                </br>
+            </section>
+            <section class="main-section" id="Hello_world">
+                <header>
+                    <h1>
+                        Hello world
+                    </h1>
+                </header>
+                <p>
+                    要开始编写JavaScript，请打开编辑器并编写您的第一个“ Hello world” JavaScript代码：
+                </p>
+                <code>
+                    function greetMe(yourName) { alert("Hello " + yourName); }
+      greetMe("World");
+                </code>
+                <p>
+                    在键盘上输入代码，然后保存可以在浏览器中看到它的展开！
+                </p>
+            </section>
+            <section class="main-section" id="Variables">
+                <header>
+                    <h1>
+                        Variables
+                    </h1>
+                </header>
+                <p>
+                    您可以将变量用作应用程序中值的符号名称。 变量的名称（称为标识符）符合某些规则。
+                </p>
+                <br>
+                    <p>
+                        JavaScript标识符必须以字母，下划线（_）或美元符号（$）开头； 后续字符也可以是数字（0-9）。 因为JavaScript区分大小写，所以字母包括字符“ A”至“ Z”（大写）和字符“ a”至“ z”（小写）。
+                    </p>
+                    <br>
+                        <p>
+                            您可以在标识符中使用ISO 8859-1或Unicode字母，例如å和ü。 您还可以将Unicode转义序列用作标识符中的字符。 合法名称的一些示例是Number_hits，temp99和_name。
+                        </p>
+                    </br>
+                </br>
+            </section>
+            <section class="main-section" id="Declaring_variables">
+                <header>
+                    <h1>
+                        Declaring variables
+                    </h1>
+                </header>
+                <p>
+                    您可以通过三种方式声明变量：
+                </p>
+                <br>
+                    <p>
+                        使用关键字var。 例如，
+                    </p>
+                    <code>
+                        var x = 42
+                    </code>
+                    <p>
+                        此语法可用于声明局部变量和全局变量。
+                    </p>
+                    <br>
+                        <p>
+                            通过简单地为其分配一个值。 例如，
+                        </p>
+                        <code>
+                            x = 42
+                        </code>
+                        <p>
+                            这总是声明一个全局变量。 它会生成严格的JavaScript警告。 您不应该使用此变量。
+                        </p>
+                        <br>
+                            <p>
+                                使用关键字let。 例如，
+                            </p>
+                            <code>
+                                let y = 13
+                            </code>
+                            <p>
+                                此语法可用于声明块作用域局部变量。 请参阅下面的可变范围。
+                            </p>
+                            <br>
+                            </br>
+                        </br>
+                    </br>
+                </br>
+            </section>
+            <section class="main-section" id="Variable_scope">
+                <header>
+                    <h1>
+                        Variable scope
+                    </h1>
+                </header>
+                <p>
+                    当您在任何函数之外声明变量时，该变量称为全局变量，因为它可用于当前文档中的任何其他代码。 在函数中声明变量时，该变量称为局部变量，因为它仅在该函数中可用。
+                </p>
+                <br>
+                    <p>
+                        ECMAScript 2015之前的JavaScript没有block语句范围； 相反，在块中声明的变量对于该块所在的函数（或全局范围）而言是局部的。 例如，以下代码将记录为5，因为x的范围是在其中声明x的函数（或全局上下文），而不是块（在这种情况下为if语句）。
+                    </p>
+                    <code>
+                        if (true) { var x = 5; } console.log(x); // 5
+                    </code>
+                    <p>
+                        使用ECMAScript 2015中引入的let声明时，此行为会更改。
+                    </p>
+                    <code>
+                        if (true) { let y = 5; } console.log(y); // ReferenceError: y is not
+      defined
+                    </code>
+                </br>
+            </section>
+            <section class="main-section" id="Global_variables">
+                <header>
+                    <h1>
+                        Global variables
+                    </h1>
+                </header>
+                <p>
+                    实际上，全局变量是全局对象的属性。 在网页中，全局对象是window，因此您可以使用window.variable语法设置和访问全局变量。
+                </p>
+                <br>
+                    <p>
+                        因此，您可以通过指定窗口或框架名称来访问在一个窗口或框架中从另一个窗口或框架中声明的全局变量。 例如，如果在文档中声明了一个名为phoneNumber的变量，则可以从iframe中将此变量称为parent.phoneNumber。
+                    </p>
+                </br>
+            </section>
+            <section class="main-section" id="Constants">
+                <header>
+                    <h1>
+                        Constants
+                    </h1>
+                </header>
+                <p>
+                    您可以使用const关键字创建一个只读的，名为constant的常量。 常量标识符的语法与变量标识符的语法相同：它必须以字母，下划线或美元符号开头，并且可以包含字母，数字或下划线字符。
+                </p>
+                <br>
+                    <code>
+                        const PI = 3.14;
+                    </code>
+                    <p>
+                        在脚本运行时，常量不能通过赋值更改值，也不能重新声明。 必须将其初始化为一个值。
+                        <br>
+                            <br>
+                                常量的作用域规则与let块作用域变量的作用域规则相同。 如果省略const关键字，则假定标识符表示变量。
+                                <br>
+                                    <br>
+                                        您不能在相同范围内声明与函数或变量同名的常量。 例如：
+                                    </br>
+                                </br>
+                            </br>
+                        </br>
+                    </p>
+                    <code>
+                        // THIS WILL CAUSE AN ERROR function f() {}; const f = 5; // THIS WILL
+      CAUSE AN ERROR ALSO function f() { const g = 5; var g; //statements
+      }
+                    </code>
+                    <p>
+                        但是，对象属性不受保护，因此执行以下语句不会出现问题。
+                    </p>
+                    <code>
+                        const MY_OBJECT = {"key": "value"}; MY_OBJECT.key = "otherValue";
+                    </code>
+                </br>
+            </section>
+            <section class="main-section" id="Data_types">
+                <header>
+                    <h1>
+                        Data types
+                    </h1>
+                </header>
+                <p>
+                    最新的ECMAScript标准定义了七种数据类型：
+                </p>
+                <ul>
+                    <li>
+                        六种原始数据类型：
+                        <ul>
+                            <li>
+                                Boolean布尔值。 真假。
+                            </li>
+                            <li>
+                                null空值。 表示空值的特殊关键字。 因为JavaScript区分大小写，所以null与Null，NULL或任何其他变体不同。
+                            </li>
+                            <li>
+                                undefined未定义。 值未定义的顶级属性。
+                            </li>
+                            <li>
+                                number 数值型 42或3.14159。
+                            </li>
+                            <li>
+                                string 字符串型 "hello"
+                            </li>
+                            <li>
+                                symbol 符号（ECMAScript 2015中的新增功能）。 一种数据类型，其实例是唯一且不可变的。
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        和对象
+                    </li>
+                </ul>
+                <p>
+                    尽管这些数据类型的数量相对较少，但是它们使您能够对应用程序执行有用的功能。 对象和功能是语言中的其他基本元素。 您可以将对象视为值的命名容器，并将其视为应用程序可以执行的过程。
+                </p>
+            </section>
+            <section class="main-section" id="if...else_statement">
+                <header>
+                    <h1>
+                        if...else statement
+                    </h1>
+                </header>
+                <p>
+                    没什么好说的
+                </p>
+            </section>
+            <section class="main-section" id="while_statement">
+                <header>
+                    <h1>
+                        while statement
+                    </h1>
+                </header>
+                <p>
+                    没什么好说的
+                </p>
+            </section>
+            <section class="main-section" id="Function_declarations">
+                <header>
+                    <h1>
+                        Function declarations
+                    </h1>
+                </header>
+                <p>
+                    没什么好说的
+                </p>
+            </section>
+            <section class="main-section" id="Reference">
+                <header>
+                    <h1>
+                        Reference
+                    </h1>
+                </header>
+                <p>
+                    参考
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction" target="_blank">
+                        MDN
+                    </a>
+                </p>
+            </section>
+        </main>
+    </body>
+</html>
