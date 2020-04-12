@@ -18,9 +18,7 @@
 
 [fcc题目（需求）地址](https://learn.freecodecamp.one/responsive-web-design/responsive-web-design-projects/build-a-tribute-page)
 
-[我制作的页面地址](https://codepen.io/ultraman-agul/full/ZEGPWLe)
-
-[代码编辑页面](https://codepen.io/ultraman-agul/pen/ZEGPWLe)
+[我制作的页面地址](https://ultraman-agul.github.io/FreeCodeCamp/ResponsiveWebDesign/TributePage.html)
 
 第一次使用到codepen这个在线编辑网站，一开始感觉怪怪的，后来觉得还挺好用。
 
@@ -44,9 +42,7 @@
 
 [fcc题目（需求）地址](https://learn.freecodecamp.one/responsive-web-design/responsive-web-design-projects/build-a-survey-form)
 
-[我制作的页面地址](https://codepen.io/ultraman-agul/full/MWwxGBY)
-
-[代码编辑页面](https://codepen.io/ultraman-agul/pen/MWwxGBY)
+[我制作的页面地址](https://ultraman-agul.github.io/FreeCodeCamp/ResponsiveWebDesign/SurveyForm.html)
 
 给网页添加了背景图，但是发现这样会使文字看不清，想要实现背景图和颜色遮罩，我一开始想要使用伪类元素解决：
 
@@ -95,9 +91,7 @@ position:absolute;
 
 [题目需求页面](https://learn.freecodecamp.one/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page)
 
-[代码编辑页面](https://codepen.io/ultraman-agul/pen/VwLNKPm?editors=1100)
-
-[我制作的网页](https://codepen.io/ultraman-agul/full/VwLNKPm?editors=1100)
+[我制作的网页](https://ultraman-agul.github.io/FreeCodeCamp/ResponsiveWebDesign/ProductsLogin.html)
 
 运用flexbox可以布局灵活的页面.
 
@@ -141,9 +135,7 @@ flexbox和媒体查询的使用较为生疏，多使用才能熟练掌握。
 
 [题目需求页面](https://learn.freecodecamp.one/responsive-web-design/responsive-web-design-projects/build-a-technical-documentation-page)
 
-[代码编辑页](https://codepen.io/ultraman-agul/pen/gOpJOoa?editors=1100)
-
-[我制作的网页地址](https://codepen.io/ultraman-agul/full/gOpJOoa?editors=1100)
+[我制作的网页地址](https://ultraman-agul.github.io/FreeCodeCamp/ResponsiveWebDesign/Document.html)
 
 设计可以滚动的侧边导航栏：
 
@@ -191,9 +183,7 @@ flexbox和媒体查询的使用较为生疏，多使用才能熟练掌握。
 
 [题目需求页面](https://learn.freecodecamp.one/responsive-web-design/responsive-web-design-projects/build-a-personal-portfolio-webpage)
 
-[代码编辑页面](https://codepen.io/ultraman-agul/pen/QWbXqXL?editors=1100)
-
-[我制作的页面](https://codepen.io/ultraman-agul/full/QWbXqXL?editors=1100)
+[我制作的页面](https://ultraman-agul.github.io/FreeCodeCamp/ResponsiveWebDesign/Web.html)
 
 插入图片下方有缝隙
 
@@ -271,3 +261,6 @@ Flex 布局是轴线布局，只能指定"项目"针对轴线的位置，可以�
 
 如果是文字的话，可以把内容颜色设为与背景色一致，悬停时改变颜色。
 
+
+
+这几个小项目难度不大，但是需要留意小细节的地方，可以学到响应式布局的方法。
